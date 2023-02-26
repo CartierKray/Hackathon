@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+body {
+  background-image: linear-gradient(rgb(22, 123, 22), white);
+}
+header {
+  height: 110vh;
+  text-align: center;
+}
+
+header p {
+  font-style: italic;
+  display: flex;
+  margin: 40px;
+  text-decoration: underline;
+}
+header h1 {
+  margin: 25px;
+}
+.foto1 {
+  width: 50%;
+  height: 75vh;
+  border-style: double;
+  border-color: rgb(119, 119, 119);
+}
+
+main {
+  height: 85vh;
+  text-align: center;
+}
+main p {
+  margin: 40px;
+  font-style: italic;
+  text-decoration: line-through;
+}
+main h2 {
+  margin: 25px;
+}
+.foto2 {
+  align-items: center;
+  width: 50%;
+  height: 50vh;
+  padding: 10px;
+  border-style: solid;
+  border-color: rgb(151, 173, 151);
+  border-radius: 10px;
+}
+
+footer {
+  height: 150vh;
+  text-align: center;
+}
+footer p {
+  margin: 40px;
+  text-decoration: overline;
+  color: rgb(148, 32, 32);
+}
+footer h2 {
+  margin: 25px;
+}
+.foto3 {
+  align-items: center;
+  width: 50%;
+  height: 50vh;
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-color: rgb(98, 166, 98);
+  border-radius: 10px;
+}
+
+.ending {
+  height: 15vh;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.ending h2 {
+  margin: 15px;
+}
+ul {
+  font-size: smaller;
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  color: rgb(94, 94, 94);
+}
+
+h2 {
+  text-align: center;
+}
+a:hover {
+  color: rgb(255, 0, 0);
+}
+p:hover {
+  color: rgb(96, 96, 96);
+}
+h1:hover {
+  color: rgb(32, 191, 23);
+}
+h2:hover {
+  color: rgb(0, 255, 21);
+}
+
+.body-contact {
+  height: 100vh;
+  background-image: linear-gradient(green, white);
+}
+header-contact {
+  padding: 50px;
+  text-align: center;
+
+  border-color: rgb(255, 255, 255);
+}
+main-contact {
+  display: grid;
+  justify-content: center;
+  color: rgb(21, 21, 21);
+}
+textarea {
+  height: 250px;
+  width: 145px;
+}
+main-contact button {
+  padding: 4px;
+  border: none;
+  width: 155px;
+  margin-top: 8px;
+  border-radius: 10px;
+  background-color: rgb(30, 202, 50);
+}
+.body-account {
+  height: 100vh;
+  font-weight: 100;
+  text-align: center;
+  font-size: larger;
+  background-image: linear-gradient(green, white);
+}
+.body-account button {
+  width: 155px;
+  padding: 4px;
+  margin-top: 8px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(22, 132, 18);
+  border: none;
+}
+.main-about {
+  text-align: center;
+  height: 120vh;
+}
+.main-about p {
+  color: blue;
+  font-style: italic;
+  margin: 40px;
+}
+.foto4 {
+  align-items: center;
+  width: 75%;
+  height: 60vh;
+  padding: 10px;
+  margin: 25px;
+  border-style: dashed;
+  border-color: rgb(98, 166, 98);
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .middle {
+    display: flex;
+  }
+  .middle p {
+    margin: 12%;
+  }
+  .foto2 {
+    margin: 20px;
+  }
+  footer {
+    height: 80vh;
+  }
+  .foto3 {
+    width: 25%;
+    height: 40vh;
+  }
+  header p {
+    justify-content: center;
+  }
+}
